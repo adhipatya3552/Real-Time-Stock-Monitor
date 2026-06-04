@@ -113,8 +113,6 @@ real-time-stock-monitor/
 │   ├── feature_engineering.py# Computes indicators (MA, Volatility, Returns)
 │   ├── preprocessing.py     # Clean data and formats DateTime timestamps
 │   └── train_model.py       # Trains an Isolation Forest on engineered features
-├── models/                 # Directory reserved for model exports
-├── notebook/               # Directory reserved for Jupyter notebooks
 ├── config.py               # Pre-defined mapping of Indian stock tickers
 ├── main.py                 # Pipeline manager coordinating ingestion, features, & ML
 ├── requirements.txt        # Project package dependencies
